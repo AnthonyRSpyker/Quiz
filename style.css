@@ -1,0 +1,16 @@
+.navitem{
+    float:left;
+}
+
+.timer{
+    align-content: right;
+    padding-right: 20px;
+}
+
+.start{
+    align-content: center;
+}
+
+h1{
+    margin: auto;
+}
