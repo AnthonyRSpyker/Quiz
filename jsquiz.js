@@ -25,7 +25,7 @@ var quizQuestions = [{
     choiceA: "Hot Talented Men with Lei's",
     choiceB: "HyperText Markup Language",
     choiceC: "How The Mighty Lie",
-    choiceD: "Hydroponic TetraMethyl Lyrics",
+    choiceD: "Hydrophobic TetraMethyl Lanacane",
     correctAnswer: "b"},
 {
     question: "Who Invented JavaScript?",
@@ -163,9 +163,7 @@ function replayQuiz(){
     score = 0;
     currentQuestionIndex = 0;
 }
-function wrongAnswer(){
-    var timeleft= timeleft-10;
-}
+
 // This function checks the response to each answer
 function checkAnswer(answer){
     correct = quizQuestions[currentQuestionIndex].correctAnswer;
@@ -178,7 +176,6 @@ function checkAnswer(answer){
     }else if (answer !== correct && currentQuestionIndex !== finalQuestionIndex){
         alert("That Is Incorrect.")
         currentQuestionIndex++;
-        timeLeft -= 10;
         generateQuizQuestion();
         //display in the results div that the answer is wrong.
     }
