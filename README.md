@@ -1,6 +1,8 @@
 # Quiz
 This is a fully operational quiz that is supported by javascript.  The style manipulation of the html was css derived.  This site, allows the user to interact with the interface by starting the timed quiz and answering questions as they follow the alerts.  The user then can log there score on a highscore page.
 
+link to page:  https://anthonyrspyker.github.io/Quiz/
+
 ![HomePage](images/StartingPage.png)
 
 Above, we see the home page of the quiz.  There are two options.  One is to start the quiz.  This both triggers the first question to appear (hiding the original homepage) but also begins the timer for the quiz.
