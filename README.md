@@ -31,5 +31,28 @@ As can be seen above the user has the option to delete the high scores.  This de
 
 The quiz can be taken again and again as many times as the user wants to enjoy the fun loving jokes that are these quiz questions.
 
-RootMenu:
+
+Roog Menu:
+  - images folder
+  - README.md
+  - htmlquiz.html (html page)
+  - jsquiz.js (script page)
+  - style.css (style page)
+  
+
+images folder:
+  - This folder contains all the screen shot images that are seen in this read me.
+  
+Functions on this site:
+  - This site is fully interactive.
+  - All buttons are supported by javascript scripting language
+  - All text boxes presented are functional.
+  - This site has browser memory capability, allowing it to save info in the local browser of the user.
+  
+
+ 
+
+
+  
+
 
